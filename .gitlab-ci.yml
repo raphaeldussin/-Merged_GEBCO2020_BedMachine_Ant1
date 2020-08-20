@@ -16,8 +16,9 @@ merge:
     - conda env create --file repro-pan.yml
     - . activate repro
     - conda list -e
-    - curl -o gebco_2020_netcdf.zip https://www.bodc.ac.uk/data/open_download/gebco/gebco_2020/zip/
-    - unzip gebco_2020_netcdf.zip
+    - cp /archive/gold/datasets/topography/GEBCO_2020/GEBCO_2020.nc4 ./GEBCO_2020.nc
+    #- curl -o gebco_2020_netcdf.zip https://www.bodc.ac.uk/data/open_download/gebco/gebco_2020/zip/
+    #- unzip gebco_2020_netcdf.zip
   script:
     - export PATH=`pwd`/local_env/bin:$PATH
     - export PATH=`pwd`/local_env/envs/repro/bin:$PATH

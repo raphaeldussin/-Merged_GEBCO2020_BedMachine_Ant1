@@ -1,3 +1,2 @@
-aaa572766a8ad36069166e8a52a89e39  gebco_2020_netcdf.zip
 262ce268212aaf914a192d74638fcace  GEBCO_2020.nc
 17e344806fbfaf5dd1e946b83a4962f2  merged_BedMachineAntarctic_GEBCO2020.nc
